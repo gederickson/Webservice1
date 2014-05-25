@@ -27,7 +27,11 @@ print 'Per ', parse.find('Time').text
 print '-------------------------------------------------------------------------------'
 print 'Angin'.ljust(18), ': ', parse.find('Wind').text
 print 'Jarak Penglihatan'.ljust(18), ': ', parse.find('Visibility').text
+<<<<<<< HEAD
 print 'Kondisi langit'.ljust(18), ': ', parse.find('SkyConditions').text
+=======
+print 'Cuaca'.ljust(18), ': ', parse.find('SkyConditions').text
+>>>>>>> 4cc7fbe6437680dc6a3424912d9aeea0aade88e4
 print 'Suhu'.ljust(18), ': ', parse.find('Temperature').text
 print 'Titik Embun'.ljust(18), ': ', parse.find('DewPoint').text
 print 'Kelembapan'.ljust(18), ': ', parse.find('RelativeHumidity').text
