@@ -1,3 +1,3 @@
 Webservice1
 ===========
-Tugas Sistem terdistribusi Prektikum 3
+Tugas Sistem terdistribusi Praktikum 3
